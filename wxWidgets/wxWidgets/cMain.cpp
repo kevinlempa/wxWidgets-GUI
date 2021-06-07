@@ -3,7 +3,7 @@ wxBEGIN_EVENT_TABLE(cMain, wxFrame)
 
 wxEND_EVENT_TABLE()
 
-cMain::cMain() : wxFrame(nullptr, wxID_ANY, "Testing wxWidgets!", wxPoint(1600, 30), wxSize(1280, 720)) {
+cMain::cMain() : wxFrame(nullptr, wxID_ANY, "MineSweeper Test", wxPoint(1600, 30), wxSize(1280, 720)) {
 	btn = new wxButton * [nFieldHeight * nFieldHeight];
 	wxGridSizer* grid = new wxGridSizer(nFieldWidth, nFieldHeight, 0, 0);
 
